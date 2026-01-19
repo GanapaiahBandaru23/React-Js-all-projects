@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.coin-toss-container {
+  text-align: center;
+  background-color: #f9d423;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.result-text {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.toss-result-image {
+  width: 150px;
+  height: 150px;
+}
+
+.toss-button {
+  background-color: #e2a139;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.toss-button:hover {
+  background-color: #a35200;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.result {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 18px;
+  margin: 5px 0;
+}
