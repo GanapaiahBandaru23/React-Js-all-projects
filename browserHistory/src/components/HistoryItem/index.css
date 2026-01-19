@@ -1,0 +1,52 @@
+/* Styles for the HistoryItem component */
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+}
+
+.domain-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.title-container {
+  margin-right: 15px;
+}
+
+.title {
+  font-size: 16px;
+  color: #475569;
+  margin: 0;
+}
+
+.domain-url {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+.time-accessed {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button img {
+  width: 20px;
+  height: 20px;
+}
