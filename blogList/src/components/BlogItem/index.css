@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.c1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9aa5b1;
+}
+.c1 h1 {
+  font-size: medium;
+  color: #12022f;
+}
+p {
+  color: #9aa5b1;
+}
+.line{
+  color:#9aa5b1 ;
+}
