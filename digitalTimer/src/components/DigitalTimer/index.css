@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.digital-timer-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.timer-display {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.timer {
+  font-size: 48px;
+  color: #0f172a;
+}
+
+.status {
+  font-size: 24px;
+  color: #00d9f5;
+}
+
+.control-buttons {
+  margin-top: 20px;
+}
+
+.control-button {
+  background-color: #00d9f5;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+}
+
+.control-button img {
+  margin-right: 10px;
+}
+
+.limit-button {
+  background-color: #defafe;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  color: #1e293b;
+}
+
+.limit-button:disabled {
+  background-color: #cffcf1;
+  cursor: not-allowed;
+}
+
+.timer-limit {
+  display: inline-block;
+  font-size: 24px;
+  color: #1e293b;
+  margin: 0 10px;
+}
