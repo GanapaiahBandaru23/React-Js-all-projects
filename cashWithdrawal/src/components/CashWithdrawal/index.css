@@ -1,0 +1,25 @@
+.cash-withdrawal-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #c7d2fe;
+  font-family: Arial, sans-serif;
+}
+
+.balance-title,
+.balance-amount,
+.withdraw-title,
+.choose-sum {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #150b3e;
+}
+
+.balance-amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.denominations-list {
+  list-style-type: none;
+  padding: 0;
+}
