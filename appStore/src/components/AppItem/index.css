@@ -1,0 +1,22 @@
+.app-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-item-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.app-item-name {
+  font-size: 14px;
+  color: #1e293b;
+  text-align: center;
+}
