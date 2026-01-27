@@ -1,0 +1,49 @@
+.courseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  font-family: Roboto;
+}
+.pp {
+  font-weight: bold;
+  font-size: 18px;
+}
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.courseTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.durationContainer {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.durationText {
+  font-size: 16px;
+}
+
+.courseDescription {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #555;
+}
+.image {
+  width: 100%;
+}
