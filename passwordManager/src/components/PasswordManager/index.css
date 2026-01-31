@@ -1,0 +1,126 @@
+.container {
+  background-image: linear-gradient(to top, #c3caea, #9ba9eb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Roboto';
+  align-items: stretch;
+  height: fit-content;
+}
+.noPassImage{
+  text-align: center;
+  align-self: ;
+}
+.app-logo {
+  width: 150px;
+  padding-bottom: 10px;
+}
+.card1 {
+  background-color: #5763a5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  align-self: flex-end;
+}
+.card2 {
+  background-color: #5763a5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+  min-height: 500px;
+}
+.heading2 {
+  font-weight: bold;
+  color: #f8fafc;
+  font-size: 28px;
+}
+.formContainer {
+  padding: 20px;
+  width: 100%;
+  background-color: #454f84;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.PasswordManagerLogo {
+  width: 350px;
+}
+input {
+  border: 0px;
+}
+.inputContainer {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inputContainer label {
+  margin-right: 10px;
+}
+
+.InputIcons {
+  width: 20px;
+  height: 20px;
+}
+.button {
+  color: #f8fafc;
+  border-radius: 8px;
+  background-color: #0b69ff;
+  border: 0px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-self: flex-end;
+}
+.button {
+  align-self: flex-end;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.cc2 {
+  align-self: center;
+  flex-grow: 0;
+}
+.line {
+  color: #94a3b8;
+  align-self: stretch;
+}
+.ll {
+  color: #f8fafc;
+}
+.showpass {
+  align-self: flex-end;
+}
+.noPassImage {
+  width: 30vw;
+  align-self: center;
+}
+.imageContainer {
+  align-self: center;
+}
