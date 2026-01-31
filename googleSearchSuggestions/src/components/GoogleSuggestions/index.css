@@ -1,0 +1,42 @@
+/* src/components/GoogleSuggestions/index.css */
+.google-suggestions-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.google-suggestions-container img {
+  height: 24px;
+}
+
+.google-suggestions-container input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.suggestions-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.suggestion-item img {
+  height: 16px;
+}
+
+/* Add more styling as needed */

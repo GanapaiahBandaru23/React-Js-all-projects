@@ -1,0 +1,14 @@
+
+/* src/components/SuggestionItem/index.css */
+.suggestion-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
