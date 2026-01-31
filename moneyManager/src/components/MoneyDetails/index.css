@@ -1,0 +1,9 @@
+.money-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.money-detail {
+  text-align: center;
+}
